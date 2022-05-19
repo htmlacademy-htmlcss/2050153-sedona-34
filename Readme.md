@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Наталья Зиновьева](https://up.htmlacademy.ru/htmlcss/34/user/2050153).
-* Наставник: `Неизвестно`.
+* Наставник: [Денис Власов](https://htmlacademy.ru/profile/amaringo).
+
 
 ---
 
