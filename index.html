@@ -5,8 +5,134 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
+    <header class="main-header">
+      <img class="logo" src="" alt="Логотип Седона">
+      <nav class="navigation-menu">
+        <ul class="navigahion-menu-list">
+          <li class="navigahion-menu-item">
+            <a class="navigation-menu-link" href="main.html">Главная</a>
+          </li>
+          <li class="navigahion-menu-item">
+            <a class="navigation-menu-link" href="about.html">О Седоне</a>
+          </li>
+          <li class="navigahion-menu-item">
+            <a class="navigation-menu-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="navigation-user">
+        <ul class="navigahion-user-list">
+          <li class="navigahion-user-item">
+            <a class="navigation-user-link" href="#">
+              <span class="visually-hidden">
+               Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigahion-user-item">
+            <a class="navigation-user-link" href="#">
+              <span class="visually-hidden">
+                Избранное
+              </span>
+            </a>
+          </li>
+          <li class="navigahion-user-item">
+            <button class="navigation-user-button" type="button">Хочу сюда!</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-index">
+      <section class="hero">
+        <h1 class="visually-hidden">Добро пожаловать на сайт о Сидоне</h1>
+        <img class="vector" src="" alt="Welcome">
+        <img class="vector" src="" alt="-to the gorgeous-">
+        <img class="vector" src="" alt="Sedona-because the grand canyon sucks">
+        <img class="background-image" src="">
+        <img class="background-image" src="" alt="divider">
+        <h2 class="hero-sedona">Седона — небольшой городок в Аризоне,<br>
+          заслуживающий большего!</h2>
+        <h4 class="hero-advantages">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</h4>
+      </section>
+      <section class="advantages">
+        <ul class="advantages-1-list">
+          <li class="advantages-1-item">
+            <h3 class="advantages-1-title">Настоящий <br> городок</h3>
+            <h5 class="advantages-1-number">№1</h5>
+            <p class="advantages-1-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </li>
+          <li class="advantages-1-item">
+            <img class="background-image" src="">
+          </li>
+        </ul>
+        <ul class="advantages-1-reasons">
+          <li class="advantages-1-reasons-item">
+            <img class="advantages-1-reasons-1" src="" alt="дом">
+            <h3 class="advantages-1-reasons-title">жилье</h3>
+            <p class="advantages-1-reasons-description">Рекомендуем пожить<br>в настоящем мотеле,<br> 
+              всё как в кино!</p>
+          </li>
+          <li class="advantages-1-reasons-item-2">
+            <img class="advantages-1-reasons-2" src="" alt="Бургер">
+            <h3 class="advantages-1-reasons-title">еда</h3>
+            <p class="advantages-1-reasons-description">Всегда заказывайте<br>топовый фирменный бургер,<br> 
+              вы не разочаруетесь!</p>
+          </li>
+          <li class="advantages-1-reasons-item-3">
+            <img class="advantages-1-reasons-3" src="" alt="подарок">
+            <h3 class="advantages-1-reasons-title">Сувениры</h3>
+            <p class="advantages-1-reasons-description">Не только китайского,<br> 
+              но и настоящего местного<br>производства!</p>
+          </li>
+        </ul>
+        <ul class="advantages-2">
+          <li class="advantages-2-item">
+            <img class="background-image" src="">
+          </li>
+          <li class="advantages-2-item">
+            <h3 class="advantages-2-title">Там есть<br>мост дьявола</h3>
+            <h5 class="advantages-2-number">№2</h5>
+            <p class="advantages-2-description">Да, по нему можно пройти!<br>Если вы осмелитесь,<br>разумеется</p>
+          </li>
+        </ul>
+        <ul class="advantages">
+          <li class="advantages-3-item">
+            <h3 class="advantages-3-title">Небольшая<br>площадь</h3>
+            <h5 class="advantages-3-number">№3</h5>
+            <p class="advantages-3-description">Все достопримечательности<br>находятся очень близко</p>
+          </li>
+          <li class="advantages-4-item">
+            <h3 class="advantages-4-title">Красивая<br>дорога</h3>
+            <h5 class="advantages-4-number">№4</h5>
+            <p class="advantages-4-description">Ехать в Седону из Лас-Вегаса<br>совсем не скучно!</p>
+          </li>
+          <li class="advantages-5-item">
+            <h3 class="advantages-5-title">Мало<br>туристов</h3>
+            <h5 class="advantages-5-number">№5</h5>
+            <p class="advantages-5-description">Большинство едет в Гранд<br>Каньон и толпится там</p>
+          </li>
+        </ul>
+      </section>
+      <section class="interested">
+        <h2 class="interested-title">Заинтересовались?</h2>
+        <h4 class="interested-instruction">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</h4>
+        <a class="button button-search" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+      </section>
+      <section class="subscribtion">
+        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+        <h4 class="subscription-instruction">Только полезная информация и никакого спама,<br>честное бойскаутское!</h4>
+        <form class="subscription-form" action="#" method="post">
+          <label for="email-field"></label>
+          <input type="text" name="e-mail" id="email-field" value="Ваш e-mail">
+          <input type="submit" value="Подписаться">
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    </footer>
+
+    <-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p> -->
 
   </body>
 </html>
