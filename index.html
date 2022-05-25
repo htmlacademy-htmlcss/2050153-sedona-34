@@ -10,13 +10,13 @@
       <nav class="navigation-menu">
         <ul class="navigahion-menu-list">
           <li class="navigahion-menu-item">
-            <a class="navigation-menu-link" href="main.html">Главная</a>
+            <a class="navigation-menu-link" href="#">Главная</a>
           </li>
           <li class="navigahion-menu-item">
-            <a class="navigation-menu-link" href="about.html">О Седоне</a>
+            <a class="navigation-menu-link" href="#">О Седоне</a>
           </li>
           <li class="navigahion-menu-item">
-            <a class="navigation-menu-link" href="catalog.html">Гостиницы</a>
+            <a class="navigation-menu-link" href="#">Гостиницы</a>
           </li>
         </ul>
       </nav>
@@ -116,23 +116,52 @@
       <section class="interested">
         <h2 class="interested-title">Заинтересовались?</h2>
         <h4 class="interested-instruction">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</h4>
-        <a class="button button-search" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+        <a class="button button-search" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
       </section>
       <section class="subscribtion">
         <h2 class="subscription-title">Подпишитесь на рассылку</h2>
         <h4 class="subscription-instruction">Только полезная информация и никакого спама,<br>честное бойскаутское!</h4>
         <form class="subscription-form" action="#" method="post">
-          <label for="email-field"></label>
-          <input type="text" name="e-mail" id="email-field" value="Ваш e-mail">
-          <input type="submit" value="Подписаться">
+          <label for="subscription-email"></label>
+          <input class="field" type="email" name="subscription-email" placeholder="Ваш e-mail" id="subscription-email" required>
+          <button class="button subscription-button" type="submit" value="Подписаться">
+            <span class="visually-hidden">Подписаться</span>
+          </button>
         </form>
       </section>
     </main>
     <footer class="main-footer">
-
+      <section class="footer-social">
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="button" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">vkontakte</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://t.me/htmlacademy ">
+              <span class="visually-hidden">telegram</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">youtube</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-contact">
+        <h2 class="visually-hidden">Звоните на</h2>
+        <a class="footer-contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </section>
+      <section class="footer-link">
+        <h2 class="visually-hidden">Сайт разработчика</h2>
+        <a class="footer-link" href="https://htmlacademy.ru/">
+          <div class="visually-hidden">.html-academy</div>
+        </a>
+      </section>
     </footer>
-
-    <-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p> -->
-
+    <!-- <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p> -->
   </body>
 </html>
