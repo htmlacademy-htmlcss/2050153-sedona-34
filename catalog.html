@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="catalog-header">
+      <img class="logo" src="" alt="Логотип Седона">
+      <nav class="navigation-menu">
+        <ul class="navigahion-menu-list">
+          <li class="navigahion-menu-item">
+            <a class="navigation-menu-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigahion-menu-item">
+            <a class="navigation-menu-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigahion-menu-item">
+            <a class="navigation-menu-link navigation-menu-link-curent" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="navigation-user">
+        <ul class="navigahion-user-list">
+          <li class="navigahion-user-item">
+            <a class="navigation-user-link" href="#">
+              <span class="visually-hidden">
+               Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigahion-user-item">
+            <a class="navigation-user-link" href="#">
+              <span class="visually-hidden">
+                Избранное
+              </span>
+            </a>
+          </li>
+          <li class="navigahion-user-item">
+            <button class="navigation-user-button" type="button">Хочу сюда!</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-inner">
+        <section class="subscribtion">
+            <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+            <h4 class="subscription-instruction">Только полезная информация и никакого спама,<br>честное бойскаутское!</h4>
+            <form class="subscription-form" action="#" method="post">
+              <label for="subscription-email"></label>
+              <input class="field" type="email" name="subscription-email" placeholder="Ваш e-mail" id="subscription-email" required>
+              <button class="button subscription-button" type="submit" value="Подписаться">
+                <span class="visually-hidden">Подписаться</span>
+              </button>
+            </form>
+          </section>
+    </main>
+    <footer class="catalog-footer">
+      <section class="footer-social">
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="button" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">vkontakte</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://t.me/htmlacademy ">
+              <span class="visually-hidden">telegram</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">youtube</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-contact">
+        <h2 class="visually-hidden">Звоните на</h2>
+        <a class="footer-contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </section>
+      <section class="footer-link">
+        <h2 class="visually-hidden">Сайт разработчика</h2>
+        <a class="footer-link" href="https://htmlacademy.ru/">
+          <div class="visually-hidden">.html-academy</div>
+        </a>
+      </section>
+    </footer>
+  </body>
+</html>
