@@ -94,8 +94,8 @@
               <fieldset class="catalog-filter-group">
                  <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                  <div class="catalog-filter-price-range">
-                    <input class="catalog-filter-price-range-field" type="number" value="от">
-                    <input class="catalog-filter-price-range-field" type="number" value="до">
+                    <input class="catalog-filter-price-range-field" type="number" name="product-price" value="от">
+                    <input class="catalog-filter-price-range-field" type="number" name="product-price" value="до">
                  </div>
                  <input class="catalog-filter-range" type="range">
               </fieldset>
@@ -107,7 +107,31 @@
                 <option value="expensive">Сначала дорогое</option>
                 <option value="popular">Сначала популярное</option>
             </select>
-
+            <div class="product-view">
+                <ul class="product-view-user-list">
+                    <li class="product-view-user-item">
+                      <a class="product-view-user-link" href="#">
+                        <span class="visually-hidden">
+                           Переключить в режим сетки
+                        </span>
+                      </a>
+                    </li>
+                    <li class="product-view-user-item">
+                      <a class="product-view-user-link" href="#">
+                        <span class="visually-hidden">
+                           Переключить в режим колонки
+                        </span>
+                      </a>
+                    </li>
+                    <li class="product-view-user-item">
+                      <a class="product-view-user-link" href="#">
+                        <span class="visually-hidden">
+                            Переключить в режим таблицы
+                        </span>
+                      </a>
+                    </li>
+                </ul>
+            </div>
             <div class="product-card">
                 <a class="product-card-link" href="#">
                     <img class="product-card-image" src="" alt="">
