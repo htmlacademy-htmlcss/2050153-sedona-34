@@ -99,8 +99,10 @@
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Стоимость, ₽:</legend>
           <div class="catalog-filter-price-range">
-            <input class="catalog-filter-price-range-field" type="number" name="product-price" aria-label="от">
-            <input class="catalog-filter-price-range-field" type="number" name="product-price" aria-label="до">
+            <label class="catalog-filter-price-range-field" for="from">от</label>
+            <input class="catalog-filter-price-range-field" type="number" name="product-price" id="from">
+            <label class="catalog-filter-price-range-field" for="to">до</label>
+            <input class="catalog-filter-price-range-field" type="number" name="product-price" id="to">
           </div>
           <input class="catalog-filter-range" type="range">
         </fieldset>
@@ -112,12 +114,12 @@
     </section>
     <section class="catalog-products">
       <h2 class="visually-hidden">Каталог гостиниц</h2>
-      <span class="product-search">
-        <div class="product-search-text">Найдено гостиниц:</div>
+      <div class="product-search">
+        <p class="product-search-text">Найдено гостиниц:</p>
         <span class="product-search-result-number">
           38
         </span>
-      </span>
+      </div>
       <select class="select-control" aria-label="Сортировка">
         <option value="cheap">Сначала дешевое</option>
         <option value="expensive">Сначала дорогое</option>
