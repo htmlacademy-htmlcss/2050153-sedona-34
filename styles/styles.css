@@ -460,7 +460,10 @@ body {
     border: none;
 }
 
-
+.choice-number-shows {
+    font-weight: 400;
+    color: #333333;
+}
 
 .subscription-catalog {
     text-align: center;
