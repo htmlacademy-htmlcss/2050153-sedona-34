@@ -241,3 +241,25 @@ subscription-title {
     background: #82B3D3;
 }
 
+.button-vk {
+    background-image: url(../images/footer-icons/vkontakte.svg);
+}
+
+.button-telegram {
+    background-image: url(../images/footer-icons/twitter.svg);
+}
+
+.button-youtube {
+    background-image: url(../images/footer-icons/youtube.svg);
+}
+
+.footer-contact-phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    font-style: normal;
+}
+
