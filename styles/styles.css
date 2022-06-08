@@ -351,6 +351,35 @@ body {
     text-decoration: none;
 }
 
+.product-search-text,
+.product-search-result-number {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.select-control {
+    color: #333333;
+    background-image: url(../images/arrow-down.svg);
+    background-repeat: no-repeat;
+}
+
+.product-view-user-link-table {
+    background-image: url(../images/catalog-icon-page-view/icon-table.svg);
+    background-repeat: no-repeat;
+}
+
+.product-view-user-link-slideshow {
+    background-image: url(../images/catalog-icon-page-view/icon-slideshow.svg);
+    background-repeat: no-repeat;
+}
+
+.product-view-user-link-list {
+    background-image: url(../images/catalog-icon-page-view/icon-list.svg);
+    background-repeat: no-repeat;
+}
+
 .subscription-catalog {
     text-align: center;
     font-family: inherit;
