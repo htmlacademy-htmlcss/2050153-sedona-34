@@ -284,3 +284,76 @@ body {
     font-family: inherit;
 }
 
+.catalog-filter-block {
+    background-image: url(../images/catalog-filter-background.jpg);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-color: #155580;
+}
+
+.inner-header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    text-transform: capitalize;
+}
+
+.breadcrumbs-link {
+    background-image: url(../images/catalog-filter-house-icon.svg);
+    background-repeat: no-repeat;
+}
+
+.breadcrumbs-link-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+
+.control-input {
+    font-weight: 400;
+}
+
+.catalog-filter-price-range-field {
+    font-weight: 400;
+    background: none;
+}
+
+.catalog-filter-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #82B3D3;
+    border-radius: 4px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.button-no-background {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: inherit;
+    color: inherit;
+    background: none;
+    text-decoration: none;
+}
+
+.subscription-catalog {
+    text-align: center;
+    font-family: inherit;
+    color: #000000;
+}
+
