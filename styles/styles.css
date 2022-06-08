@@ -136,7 +136,7 @@ body {
 .advantages-list {
     text-align: center;
     color: #000000;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .advantages-house-item,
@@ -204,6 +204,40 @@ body {
     font-size: 20px;
     line-height: 36px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     background: #756157;
 }
+
+.subscription {
+    text-align: center;
+    background-image: url(../images/subscription-index-background.jpg);
+    color: #ffffff;
+    background-color: #2579b0;
+}
+
+subscription-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscription-instruction {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.field {
+    background: #F2F2F2;  
+}
+
+.subscription-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #82B3D3;
+}
+
