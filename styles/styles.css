@@ -20,6 +20,7 @@ body {
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
+    font-weight: 400;
     color: #000000;
     background-color: #E5E5E5;
 }
@@ -65,7 +66,6 @@ body {
     background: #7DB54F;
     font-size: 10px;
     line-height: 13px;
-    font-weight: 400;
     text-align: center;
     letter-spacing: -0.1em;
 }
@@ -108,7 +108,6 @@ body {
 }
 
 .hero-text-advantages {
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     color: #333333;
@@ -133,13 +132,6 @@ body {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
-}
-
-.advantages-description,
-.advantages-number {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
 }
 
 .advantages-list {
@@ -176,7 +168,6 @@ body {
 }
 
 .advantages-item-description {
-    font-weight: 400;
     color: #333333;
 }
 
@@ -187,10 +178,6 @@ body {
 
 .advantages-item-road {
     background: rgba(131, 179, 211, 0.2); 
-}
-
-.advantages-item-number {
-    font-weight: 400;
 }
 
 .search-form-link {
@@ -206,7 +193,6 @@ body {
 }
 
 .search-form-link-instruction {
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     color: #333333;
@@ -238,7 +224,6 @@ body {
 }
 
 .subscription-instruction {
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
 }
@@ -304,7 +289,6 @@ body {
 }
 
 .breadcrumbs-link-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     font-family: inherit;
@@ -319,12 +303,7 @@ body {
     text-transform: capitalize;
 }
 
-.control-input {
-    font-weight: 400;
-}
-
 .catalog-filter-price-range-field {
-    font-weight: 400;
     background: none;
 }
 
@@ -429,7 +408,6 @@ body {
 }
 
 .product-rating-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
@@ -461,7 +439,6 @@ body {
 }
 
 .choice-number-shows {
-    font-weight: 400;
     color: #333333;
 }
 
