@@ -143,6 +143,18 @@ body {
     background: rgba(131, 179, 211, 0.12);
 }
 
+.advantages-food-item {
+    background-image: url(../images/advantages-icons/food.svg);
+}
+
+.advantages-house-item {
+    background-image: url(../images/advantages-icons/house.svg);
+}
+
+.advantages-present-item {
+    background-image: url(../images/advantages-icons/present.svg);
+} 
+
 .advantages-item-title {
     font-weight: 700;
     font-size: 24px;
