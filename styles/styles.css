@@ -118,8 +118,7 @@ body {
     box-sizing: border-box 400px 384px;
 }
 
-.advantages-town-title,
-.advantages-bridge-title {
+.advantages-title {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -153,6 +152,19 @@ body {
 
 .advantages-item-description {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    color: #333333;
 }
+
+.advantages-item-space,
+.advantages-item-quite {
+    background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-road {
+    background: rgba(131, 179, 211, 0.2); 
+}
+
+.advantages-item-number {
+    font-weight: 400;
+}
+
