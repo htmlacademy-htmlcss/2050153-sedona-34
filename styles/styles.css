@@ -17,6 +17,7 @@
 
 body {
     font-family: "PT Sans", sans-serif;
+    font-style: normal;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
@@ -180,3 +181,29 @@ body {
     font-weight: 400;
 }
 
+.search-form-link {
+    text-align: center;
+}
+
+.search-form-link-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.search-form-link-instruction {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.button-search-form-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #756157;
+}
