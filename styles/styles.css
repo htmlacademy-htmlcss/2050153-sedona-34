@@ -24,8 +24,8 @@ body {
 }
 
 .wrapper {
-    wight: 1200px;
-    margin 0px 40px;
+    width: 1200px;
+    margin 0px auto;
     background-color: #ffffff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
@@ -69,14 +69,12 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     background-color:  #756157;
-    border: ; 
+    border: 1px solid #756157; 
     border-radius: 4px;
     text-align: center;
 }
 
 .hero {
-    width: 1200px;
-    height: 767px;
     background: #ffffff;
 }
 
@@ -86,13 +84,9 @@ body {
     background-size: 100% auto;
     background-image: url(../images/hero-divider.svg) 1200px 57px;
     text-align: bottom;
-    width: 1200px;
-    height: 485px;
 }
 
 .hero-text {
-    width: 1200px;
-    height: 282px;
     text-align: center;
 }
 
@@ -110,3 +104,28 @@ body {
     color: #333333;
 }
 
+.advantages-town-list {
+    background: #82B3D3;
+    text-align: center;
+    color: #ffffff;
+}
+
+.advantages-town-item {
+    padding: 92px 85px;
+    border: 1px solid #82B3D3;
+    box-sizing: border-box 400px 384px;
+}
+
+.advantages-town-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.advantages-town-description,
+.advantages-town-number {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
