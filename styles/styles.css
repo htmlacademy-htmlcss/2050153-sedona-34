@@ -47,10 +47,12 @@ body {
 
 .navigation-user-link-search {
     background-image: url(../images/header-user-menu-icon/search.svg);
+    background-repeat: no-repeat;
 }
 
 .navigation-user-link-favorite {
     background-image: url(../images/header-user-menu-icon/favorite.svg);
+    background-repeat: no-repeat;
 }
 
 .navigation-favourite-products {
@@ -84,6 +86,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-image: url(../images/hero-divider.svg) 1200px 57px;
+    background-repeat: no-repeat;
     text-align: bottom;
 }
 
@@ -146,14 +149,17 @@ body {
 
 .advantages-food-item {
     background-image: url(../images/advantages-icons/food.svg);
+    background-repeat: no-repeat;
 }
 
 .advantages-house-item {
     background-image: url(../images/advantages-icons/house.svg);
+    background-repeat: no-repeat;
 }
 
 .advantages-present-item {
     background-image: url(../images/advantages-icons/present.svg);
+    background-repeat: no-repeat;
 } 
 
 .advantages-item-title {
@@ -243,14 +249,17 @@ subscription-title {
 
 .button-vk {
     background-image: url(../images/footer-icons/vkontakte.svg);
+    background-repeat: no-repeat;
 }
 
 .button-telegram {
     background-image: url(../images/footer-icons/twitter.svg);
+    background-repeat: no-repeat;
 }
 
 .button-youtube {
     background-image: url(../images/footer-icons/youtube.svg);
+    background-repeat: no-repeat;
 }
 
 .footer-contact-phone {
@@ -261,5 +270,6 @@ subscription-title {
     text-transform: uppercase;
     text-decoration-line: none;
     font-style: normal;
+    color: inherit;
 }
 
