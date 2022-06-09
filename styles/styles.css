@@ -3,7 +3,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/ptsans-400.woff2") format(woff2);
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -11,7 +11,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("../fonts/ptsans-700.woff2") format(woff2);
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .visually-hidden {
-    visibility: hidden;
+    display: none;
 }
 
 .main-header {
@@ -230,7 +230,9 @@ body {
 
 .field {
     background: #F2F2F2;
-    font-family: inherit;  
+    font-family: inherit; 
+    font-size: 18px;
+    line-height: 21px; 
 }
 
 .subscription-button {
@@ -240,6 +242,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     background: #82B3D3;
+    font-family: inherit;  
 }
 
 .button-vk {
@@ -342,6 +345,9 @@ body {
     color: #333333;
     background-image: url(../images/arrow-down.svg);
     background-repeat: no-repeat;
+    font-family: inherit; 
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .product-view-user-link-table {
@@ -385,6 +391,7 @@ body {
 }
 
 .navigation-product-button {
+    font-family: inherit; 
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -396,7 +403,7 @@ body {
     border-radius: 4px;
 }
 
-.navigation-product-button-chosen {
+.navigation-product-button-selected {
     background: #7DB54F;
 }
 
@@ -440,6 +447,12 @@ body {
 
 .choice-number-shows {
     color: #333333;
+}
+
+.number-choice {
+    font-family: inherit; 
+    font-size: 18px;
+    line-height: 21px; 
 }
 
 .subscription-catalog {
