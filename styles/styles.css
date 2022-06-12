@@ -14,7 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -45,7 +53,18 @@ body {
 }
 
 .main-header {
+  display: flex;
   background: #ffffff;
+}
+
+.logo {
+  margin-right: 30px;
+  margin-left: 70px;
+}
+
+.navigation-menu-list {
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-menu-link {
@@ -57,6 +76,16 @@ body {
   text-align: center;
   text-transform: capitalize;
   text-decoration: none;
+  width: 390px;
+}
+
+.navigation-menu-item {
+  display: flex;
+}
+
+.navigation-user {
+  width: 264px;
+  margin-left: auto;
 }
 
 .navigation-user-link-search {
@@ -89,6 +118,10 @@ body {
   border: 1px solid #756157;
   border-radius: 4px;
   text-align: center;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .hero {
