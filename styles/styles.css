@@ -52,7 +52,8 @@ body {
   overflow: hidden;
 }
 
-.main-header {
+.main-header,
+.catalog-header {
   display: flex;
   background: #ffffff;
 }
@@ -290,10 +291,13 @@ body {
   padding: 0;
   text-align: center;
   font-family: inherit;
+  height: 411px;
+}
+
+.subscription-main {
   background-image: url(../images/subscription-index-background.jpg);
   color: #ffffff;
   background-color: #2579b0;
-  height: 411px;
 }
 
 .subscription-title {
@@ -325,7 +329,8 @@ body {
   font-family: inherit;
 }
 
-.main-footer {
+.main-footer,
+.catalog-footer {
   height: 120px;
   display: flex;
   justify-content: space-between;
