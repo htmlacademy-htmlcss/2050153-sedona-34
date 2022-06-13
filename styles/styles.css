@@ -325,6 +325,17 @@ body {
   font-family: inherit;
 }
 
+.main-footer {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 72px;
+}
+
+.footer-social {
+  width: 120px;
+}
+
 .button-vk {
   background-image: url(../images/footer-icons/vkontakte.svg);
   background-repeat: no-repeat;
@@ -340,6 +351,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.footer-contact {
+  width: 720px;
+  text-align: center;
+}
+
 .footer-contact-phone {
   font-weight: 400;
   font-size: 40px;
@@ -350,6 +366,10 @@ body {
   font-style: normal;
   color: inherit;
   font-family: inherit;
+}
+
+.footer-link {
+  width: 115px;
 }
 
 .catalog-filter-block {
