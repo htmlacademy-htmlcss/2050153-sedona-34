@@ -175,13 +175,15 @@ body {
   background: #82B3D3;
   text-align: center;
   color: #ffffff;
+  display: flex;
+  height: 385px;
+  padding: 0;
+  margin: 0;
 }
 
 .advantages-town-item,
 .advantages-bridge-item {
   padding: 92px 85px;
-  border: 1px solid #82B3D3;
-  box-sizing: border-box 400px 384px;
 }
 
 .advantages-title {
@@ -192,6 +194,10 @@ body {
 }
 
 .advantages-list {
+  display: flex;
+  height: 383px;
+  margin: 0;
+  padding: 0;
   text-align: center;
   color: #000000;
   background: #ffffff;
@@ -215,6 +221,12 @@ body {
 .advantages-present-item {
   background-image: url(../images/advantages-icons/present.svg);
   background-repeat: no-repeat;
+}
+
+.advantages-item-space,
+.advantages-item-road,
+.advantages-item-quite {
+  padding: 103px 85px;
 }
 
 .advantages-item-title {
