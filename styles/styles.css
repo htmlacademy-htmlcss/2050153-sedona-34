@@ -250,8 +250,13 @@ body {
 }
 
 .search-form-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  padding: 0 304px;
   font-family: inherit;
+  height: 417px;
 }
 
 .search-form-link-title {
@@ -278,11 +283,17 @@ body {
 }
 
 .subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: inherit;
   background-image: url(../images/subscription-index-background.jpg);
   color: #ffffff;
   background-color: #2579b0;
+  height: 411px;
 }
 
 .subscription-title {
