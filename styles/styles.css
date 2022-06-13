@@ -125,7 +125,11 @@ body {
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: #ffffff;
+  height: 767px;
 }
 
 .hero-background {
@@ -134,8 +138,23 @@ body {
   background-size: 100% auto;
 }
 
+.hero-vector {
+  padding: 0 371px;
+  padding-top: 51px;
+  padding-bottom: 82px;
+}
+
 .hero-text {
   text-align: center;
+  background-image: url(../images/hero-divider.svg);
+  height: 339px;
+  background-repeat: no-repeat;
+  background-color: none;
+  background-position: top;
+  margin-top: -57px;
+  padding: 0 273px;
+  padding-top: 120px;
+  padding-bottom: 90px;
 }
 
 .hero-text-about-sedona {
