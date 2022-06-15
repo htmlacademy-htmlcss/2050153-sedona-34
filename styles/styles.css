@@ -464,12 +464,18 @@ body {
   text-decoration: none;
 }
 
-.product-search-text,
-.product-search-result-number {
+.sorting-block {
+  display: flex;
+  margin: 0 71px;
+  justify-content: space-between;
+}
+
+.product-search {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  width: 338px;
 }
 
 .select-control {
@@ -479,6 +485,13 @@ body {
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
+  width: 287px;
+  margin-left: 190px;
+}
+
+.product-view-user-list {
+  display: flex;
+  width: 160px;
 }
 
 .product-view-user-link-table {
