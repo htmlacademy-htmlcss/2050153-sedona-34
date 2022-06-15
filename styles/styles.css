@@ -582,6 +582,18 @@ body {
   border-radius: 4px;
 }
 
+.sorting-pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 73px;
+}
+
+.pagination {
+  display: flex;
+  width: 370px;
+  justify-content: space-between;
+}
+
 .pagination-link {
   font-weight: 700;
   font-size: 20px;
@@ -605,6 +617,7 @@ body {
 
 .choice-number-shows {
   color: #333333;
+  width: 386px;
 }
 
 .number-choice {
