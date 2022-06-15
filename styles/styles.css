@@ -509,6 +509,20 @@ body {
   background-repeat: no-repeat;
 }
 
+.product-catalog {
+  display: flex;
+  max-width: 1056px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.product-catalog-card {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
 .product-catalog-card-title {
   font-weight: 700;
   font-size: 24px;
