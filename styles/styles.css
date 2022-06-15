@@ -378,6 +378,11 @@ body {
 }
 
 .catalog-filter-block {
+  display: flex;
+  height: 393px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
   background-image: url(../images/catalog-filter-background.jpg);
   background-repeat: no-repeat;
   color: #ffffff;
@@ -389,6 +394,12 @@ body {
   font-size: 60px;
   line-height: 78px;
   text-transform: capitalize;
+  margin: 0;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
 }
 
 .breadcrumbs-link {
@@ -404,15 +415,30 @@ body {
   text-decoration: none;
 }
 
+.catalog-filter {
+  display: flex;
+  flex-direction: row;
+}
+
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
 }
+.control {
+  display: flex;
+  flex-direction: column;
+}
 
 .catalog-filter-price-range-field {
   background: none;
+}
+
+.catalog-filter-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .catalog-filter-button {
