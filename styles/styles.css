@@ -76,7 +76,6 @@ body {
   color: inherit;
   text-align: center;
   text-decoration: none;
-  width: 390px;
 }
 
 .navigation-menu-item {
@@ -84,7 +83,6 @@ body {
 }
 
 .navigation-user {
-  width: 264px;
   margin-left: auto;
 }
 
@@ -142,12 +140,13 @@ body {
 
 .hero-text {
   text-align: center;
-  min-height: 339px;
+  min-height: 282px;
   background-repeat: no-repeat;
   background-position: top;
   padding: 0 265px;
   padding-top: 120px;
   padding-bottom: 90px;
+  box-sizing: border-box;
 }
 
 .hero-text-about-sedona {
@@ -169,14 +168,14 @@ body {
   text-align: center;
   color: #ffffff;
   display: flex;
-  min-height: 385px;
+  min-height: 384px;
   padding: 0;
   margin: 0;
 }
 
 .advantages-town-item,
 .advantages-bridge-item {
-  padding: 92px 85px;
+  width: 400px;
 }
 
 .advantages-title {
@@ -199,11 +198,13 @@ body {
 .advantages-house-item,
 .advantages-present-item {
   background: rgba(131, 179, 211, 0.12);
+  width: 400px;
 }
 
 .advantages-food-item {
   background-image: url(../images/advantages-icons/food.svg);
   background-repeat: no-repeat;
+  width: 400px;
 }
 
 .advantages-house-item {
@@ -219,7 +220,7 @@ body {
 .advantages-item-space,
 .advantages-item-road,
 .advantages-item-quite {
-  padding: 103px 80px;
+  width: 400px;
 }
 
 .advantages-title {
@@ -326,8 +327,7 @@ body {
   font-family: inherit;
 }
 
-.main-footer,
-.catalog-footer {
+.footer {
   min-height: 120px;
   display: flex;
   justify-content: space-between;
@@ -371,7 +371,7 @@ body {
 
 .catalog-filter-block {
   display: flex;
-  height: 393px;
+  min-height: 393px;
   flex-direction: column;
   margin: 0;
   padding: 0;
@@ -458,7 +458,7 @@ body {
 
 .sorting-block {
   display: flex;
-  margin: 0 71px;
+  padding: 0 71px;
   justify-content: space-between;
 }
 
@@ -467,7 +467,6 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  width: 338px;
 }
 
 .select-control {
@@ -478,7 +477,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   width: 287px;
-  margin-left: 190px;
+  margin-left: auto;
 }
 
 .product-view-user-list {
