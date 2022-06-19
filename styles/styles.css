@@ -136,6 +136,7 @@ body {
   background-size: 100% auto;
   display: flex;
   justify-content: center;
+  min-height: 485px;
 }
 
 .hero-text {
@@ -371,7 +372,7 @@ body {
 
 .catalog-filter-block {
   display: flex;
-  min-height: 393px;
+  min-height: 403px;
   flex-direction: column;
   margin: 0;
   padding: 0;
