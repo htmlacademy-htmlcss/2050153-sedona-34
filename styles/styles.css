@@ -14,7 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -44,8 +52,20 @@ body {
   overflow: hidden;
 }
 
-.main-header {
+.main-header,
+.catalog-header {
+  display: flex;
   background: #ffffff;
+}
+
+.logo {
+  margin-right: 30px;
+  margin-left: 70px;
+}
+
+.navigation-menu-list {
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-menu-link {
@@ -55,8 +75,15 @@ body {
   font-family: inherit;
   color: inherit;
   text-align: center;
-  text-transform: capitalize;
   text-decoration: none;
+}
+
+.navigation-menu-item {
+  display: flex;
+}
+
+.navigation-user {
+  margin-left: auto;
 }
 
 .navigation-user-link-search {
@@ -91,18 +118,36 @@ body {
   text-align: center;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: #ffffff;
+  min-height: 767px;
 }
 
 .hero-background {
   background-image: url(../images/hero-index-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  min-height: 485px;
 }
 
 .hero-text {
   text-align: center;
+  min-height: 282px;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 0 265px;
+  padding-top: 120px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
 }
 
 .hero-text-about-sedona {
@@ -123,13 +168,15 @@ body {
   background: #82B3D3;
   text-align: center;
   color: #ffffff;
+  display: flex;
+  min-height: 384px;
+  padding: 0;
+  margin: 0;
 }
 
 .advantages-town-item,
 .advantages-bridge-item {
-  padding: 92px 85px;
-  border: 1px solid #82B3D3;
-  box-sizing: border-box 400px 384px;
+  width: 400px;
 }
 
 .advantages-title {
@@ -140,6 +187,10 @@ body {
 }
 
 .advantages-list {
+  display: flex;
+  min-height: 383px;
+  margin: 0;
+  padding: 0;
   text-align: center;
   color: #000000;
   background: #ffffff;
@@ -148,11 +199,13 @@ body {
 .advantages-house-item,
 .advantages-present-item {
   background: rgba(131, 179, 211, 0.12);
+  width: 400px;
 }
 
 .advantages-food-item {
   background-image: url(../images/advantages-icons/food.svg);
   background-repeat: no-repeat;
+  width: 400px;
 }
 
 .advantages-house-item {
@@ -163,6 +216,17 @@ body {
 .advantages-present-item {
   background-image: url(../images/advantages-icons/present.svg);
   background-repeat: no-repeat;
+}
+
+.advantages-item-space,
+.advantages-item-road,
+.advantages-item-quite {
+  width: 400px;
+}
+
+.advantages-title {
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .advantages-item-title {
@@ -186,8 +250,13 @@ body {
 }
 
 .search-form-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  padding: 0 304px;
   font-family: inherit;
+  min-height: 417px;
 }
 
 .search-form-link-title {
@@ -214,8 +283,17 @@ body {
 }
 
 .subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: inherit;
+  min-height: 411px;
+}
+
+.subscription-main {
   background-image: url(../images/subscription-index-background.jpg);
   color: #ffffff;
   background-color: #2579b0;
@@ -250,6 +328,17 @@ body {
   font-family: inherit;
 }
 
+.footer {
+  min-height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 72px;
+}
+
+.footer-social {
+  width: 120px;
+}
+
 .button-vk {
   background-image: url(../images/footer-icons/vkontakte.svg);
   background-repeat: no-repeat;
@@ -265,6 +354,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.footer-contact {
+  text-align: center;
+}
+
 .footer-contact-phone {
   font-weight: 400;
   font-size: 40px;
@@ -278,6 +371,11 @@ body {
 }
 
 .catalog-filter-block {
+  display: flex;
+  min-height: 403px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
   background-image: url(../images/catalog-filter-background.jpg);
   background-repeat: no-repeat;
   color: #ffffff;
@@ -289,6 +387,12 @@ body {
   font-size: 60px;
   line-height: 78px;
   text-transform: capitalize;
+  margin: 0;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
 }
 
 .breadcrumbs-link {
@@ -304,15 +408,30 @@ body {
   text-decoration: none;
 }
 
+.catalog-filter {
+  display: flex;
+  flex-direction: row;
+}
+
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
 }
+.control {
+  display: flex;
+  flex-direction: column;
+}
 
 .catalog-filter-price-range-field {
   background: none;
+}
+
+.catalog-filter-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .catalog-filter-button {
@@ -338,8 +457,13 @@ body {
   text-decoration: none;
 }
 
-.product-search-text,
-.product-search-result-number {
+.sorting-block {
+  display: flex;
+  padding: 0 71px;
+  justify-content: space-between;
+}
+
+.product-search {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -353,6 +477,13 @@ body {
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
+  width: 287px;
+  margin-left: auto;
+}
+
+.product-view-user-list {
+  display: flex;
+  width: 160px;
 }
 
 .product-view-user-link-table {
@@ -368,6 +499,20 @@ body {
 .product-view-user-link-list {
   background-image: url(../images/catalog-icon-page-view/icon-list.svg);
   background-repeat: no-repeat;
+}
+
+.product-catalog {
+  display: flex;
+  max-width: 1056px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.product-catalog-card {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
 }
 
 .product-catalog-card-title {
@@ -429,6 +574,18 @@ body {
   border-radius: 4px;
 }
 
+.sorting-pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 73px;
+}
+
+.pagination {
+  display: flex;
+  width: 370px;
+  justify-content: space-between;
+}
+
 .pagination-link {
   font-weight: 700;
   font-size: 20px;
@@ -452,6 +609,7 @@ body {
 
 .choice-number-shows {
   color: #333333;
+  width: 386px;
 }
 
 .number-choice {
@@ -460,8 +618,4 @@ body {
   line-height: 21px;
 }
 
-.subscription-catalog {
-  text-align: center;
-  font-family: inherit;
-  color: #000000;
-}
+
