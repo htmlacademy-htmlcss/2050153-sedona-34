@@ -126,6 +126,12 @@ body {
   letter-spacing: -0.1em;
 }
 
+.navigation-user-item-button {
+  margin: 14px 0;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+
 .navigation-user-button {
   font-size: 16px;
   line-height: 20px;
@@ -139,8 +145,6 @@ body {
   align-items: center;
   text-align: center;
   padding: 9px 15px 8px;
-  margin: 14px 0;
-  margin-right: 70px;
 }
 
 .main-container {
