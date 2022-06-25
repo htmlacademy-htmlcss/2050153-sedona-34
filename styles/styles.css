@@ -168,6 +168,10 @@ body {
   min-height: 485px;
 }
 
+.hero-vector {
+  align-self: center;
+}
+
 .hero-text {
   text-align: center;
   min-height: 282px;
@@ -184,12 +188,15 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .hero-text-advantages {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  margin: 0;
+  margin-top: 31px;
 }
 
 .advantages-town-list,
