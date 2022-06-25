@@ -337,12 +337,15 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
 
 .search-form-link-instruction {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  margin: 0;
+  padding-bottom: 56px;
 }
 
 .button-search-form-link {
@@ -353,6 +356,8 @@ body {
   color: #ffffff;
   background: #756157;
   text-decoration: none;
+  padding: 12px 15px;
+  border-radius: 4px;
 }
 
 .subscription {
