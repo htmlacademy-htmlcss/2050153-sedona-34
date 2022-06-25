@@ -205,14 +205,18 @@ body {
   text-align: center;
   color: #ffffff;
   display: flex;
+  flex-wrap: wrap;
   min-height: 384px;
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 .advantages-town-item,
 .advantages-bridge-item {
   width: 400px;
+  display: block;
+  align-self: center;
 }
 
 .advantages-title {
@@ -220,28 +224,55 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.advantages-description {
+  margin: 0;
+}
+
+.advantages-number {
+  display: block;
+  padding-bottom: 30px;
 }
 
 .advantages-list {
   display: flex;
-  min-height: 383px;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 384px;
   margin: 0;
   padding: 0;
   text-align: center;
   color: #000000;
   background: #ffffff;
+  list-style-type: none;
+}
+.advantages-item-title,
+.advantages-item-description {
+  margin: 0;
+  padding-bottom: 30px;
 }
 
 .advantages-house-item,
 .advantages-present-item {
   background: rgba(131, 179, 211, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 400px;
+  min-height: 384px;
 }
 
 .advantages-food-item {
   background-image: url(../images/advantages-icons/food.svg);
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 400px;
+  min-height: 384px;
 }
 
 .advantages-house-item {
@@ -258,11 +289,17 @@ body {
 .advantages-item-road,
 .advantages-item-quite {
   width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 384px;
 }
 
 .advantages-title {
   padding-left: 90px;
   padding-right: 90px;
+  margin: 0;
+  padding-bottom: 30px;
 }
 
 .advantages-item-title {
