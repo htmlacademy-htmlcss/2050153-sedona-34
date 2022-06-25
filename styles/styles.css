@@ -424,7 +424,7 @@ body {
   font-family: inherit;
   margin: 0;
   border: none;
-  padding: 13px 15px;
+  padding: 12px 15px;
   border-radius: 0px 10px 10px 0px;
 }
 
@@ -436,7 +436,20 @@ body {
 }
 
 .footer-social {
-  width: 120px;
+  width: 144px;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-social-item {
+  width: 48px;
+  height: 40px;
 }
 
 .button-vk {
@@ -455,7 +468,10 @@ body {
 }
 
 .footer-contact {
+  display: flex;
+  padding: 5px 194px;
   text-align: center;
+  align-items: center;
 }
 
 .footer-contact-phone {
@@ -468,6 +484,11 @@ body {
   font-style: normal;
   color: inherit;
   font-family: inherit;
+}
+
+.footer-link {
+  display: flex;
+  align-self: center;
 }
 
 .catalog-filter-block {
