@@ -382,11 +382,25 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0 362px;
+  padding-bottom: 30px;
 }
 
 .subscription-instruction {
   font-size: 22px;
   line-height: 26px;
+  margin: 0;
+  padding: 0 362px;
+  padding-bottom: 46px;
+}
+
+.subscription-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 200px;
+  padding: 0;
 }
 
 .field {
@@ -394,6 +408,10 @@ body {
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
+  padding: 20px 22px;
+  flex-grow: 1;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .subscription-button {
@@ -404,6 +422,10 @@ body {
   color: #ffffff;
   background: #82B3D3;
   font-family: inherit;
+  margin: 0;
+  border: none;
+  padding: 13px 15px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .footer {
