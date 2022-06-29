@@ -608,12 +608,30 @@ body {
   font-size: 18px;
   line-height: 21px;
   width: 287px;
+  height: 48px;
+  display: flex;
+  align-self: center;
   margin-left: auto;
+  padding: 14px 20px;
 }
 
 .product-view-user-list {
   display: flex;
-  width: 160px;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 80px;
+}
+
+.product-view-user-item {
+  width: 48px;
+  height: 48px;
+}
+
+.product-view-user-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .product-view-user-link-table {
@@ -637,6 +655,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .product-catalog-card {
@@ -668,6 +687,8 @@ body {
   background: #756157;
   border-radius: 4px;
   text-decoration: none;
+  width: 140px;
+  height: 37px;
 }
 
 .navigation-product-button {
@@ -707,28 +728,40 @@ body {
 .sorting-pagination {
   display: flex;
   justify-content: space-between;
-  margin: 0 73px;
+  margin: 0 72px;
+  padding: 0;
 }
 
 .pagination {
   display: flex;
   width: 370px;
   justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination-item {
+  display: flex;
+  background: #82B3D3;
+  width: 55px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .pagination-link {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  background: #82B3D3;
-  border: 1px solid #82B3D3;
-  border-radius: 4px;
-  box-sizing: border-box;
   text-decoration: none;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .pagination-current {
@@ -740,12 +773,23 @@ body {
 .choice-number-shows {
   color: #333333;
   width: 386px;
+  display: flex;
+}
+
+.number-text {
+  margin: 0;
+  padding: 16px 51px 18px 0;
 }
 
 .number-choice {
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  width: 160px;
+  height: 48px;
+  padding: 14px 20px;
 }
 
 
