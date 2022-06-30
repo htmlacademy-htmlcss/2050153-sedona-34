@@ -145,6 +145,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 9px 15px 8px;
+  border: none;
 }
 
 .main-container {
@@ -236,11 +237,13 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   margin: 0;
-  padding: 0 90px 30px;
+  padding: 0 110px 30px;
 }
 
-.advantages-description {
+.advantages-description,
+.advantages-item-description {
   margin: 0;
+  padding: 0 85px;
 }
 
 .advantages-number {
@@ -354,7 +357,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   margin: 0;
-  padding: 0 362px;
   padding-bottom: 46px;
 }
 
@@ -434,7 +436,6 @@ body {
 
 .footer-contact {
   display: flex;
-  padding: 5px 194px;
   text-align: center;
   align-items: center;
 }
