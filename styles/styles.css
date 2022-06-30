@@ -207,13 +207,13 @@ body {
   min-height: 384px;
   margin: 0;
   padding: 0;
-  text-align: center;
   color: #000000;
   list-style-type: none;
   background: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-list-with-image {
+.advantages-item-town,
+.advantages-item-bridge {
   background: #82B3D3;
   text-align: center;
   color: #ffffff;
@@ -225,6 +225,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .advantages-image {
