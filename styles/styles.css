@@ -201,10 +201,11 @@ body {
 }
 
 .advantages-list {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  min-height: 384px;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
   margin: 0;
   padding: 0;
   color: #000000;
@@ -212,7 +213,7 @@ body {
 }
 
 .advantages-item {
-  width: 400px;
+  /* width: 400px; */
   min-height: 384px;
   display: flex;
   flex-direction: column;
@@ -230,6 +231,14 @@ body {
 
 .advantages-image {
   display: flex;
+}
+
+.advantages-town-image {
+  grid-column: 2/4;
+}
+
+.advantages-bridge-image {
+  grid-column: 1/3;
 }
 
 .advantages-title {
