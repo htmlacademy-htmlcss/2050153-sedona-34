@@ -106,6 +106,8 @@ body {
 
 .navigation-user {
   margin-left: auto;
+  display: flex;
+  align-self: center;
 }
 
 .navigation-user-list {
@@ -124,6 +126,7 @@ body {
 .navigation-user-link-search {
   background-image: url(../images/header-user-menu-icon/search.svg);
   background-repeat: no-repeat;
+  background-position: center;
   display: block;
   min-width: 42px;
 }
@@ -131,8 +134,27 @@ body {
 .navigation-user-link-favorite {
   background-image: url(../images/header-user-menu-icon/favorite.svg);
   background-repeat: no-repeat;
+  background-position: center;
   display: block;
   min-width: 42px;
+}
+
+.navigation-user-link-favorite::after {
+  content: "12";
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 15px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #FFFFFF;
+  background-color: #68B738;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
 }
 
 .navigation-favourite-products {
