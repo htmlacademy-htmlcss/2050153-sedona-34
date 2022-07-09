@@ -438,6 +438,8 @@ body {
 
 .footer-social {
   width: 144px;
+  display: flex;
+  align-items: center;
 }
 
 .footer-social-list {
@@ -448,26 +450,31 @@ body {
   list-style-type: none;
 }
 
-.footer-social-item {
-  width: 48px;
-  height: 40px;
-  outline: 2px solid rgba(0, 128, 0, 0.3);
-  outline-offset: 1px;
-}
-
 .button-vk {
   background-image: url(../images/footer-icons/vkontakte.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 48px;
+  height: 40px;
 }
 
 .button-telegram {
   background-image: url(../images/footer-icons/twitter.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 48px;
+  height: 40px;
 }
 
 .button-youtube {
   background-image: url(../images/footer-icons/youtube.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 48px;
+  height: 40px;
 }
 
 .footer-contact {
