@@ -52,6 +52,24 @@ body {
   overflow: hidden;
 }
 
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 9px 15px 8px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  align-items: center;
+}
+
 .main-header,
 .catalog-header {
   display: flex;
@@ -133,19 +151,8 @@ body {
 }
 
 .navigation-user-button {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  font-family: inherit;
-  text-transform: uppercase;
-  color: #ffffff;
   background-color: #756157;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding: 9px 15px 8px;
-  border: none;
+  width: 160px;
 }
 
 .main-container {
@@ -201,11 +208,8 @@ body {
 }
 
 .advantages-list {
-  /* display: flex; */
   display: grid;
   grid-template-columns: repeat(3, 400px);
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
   margin: 0;
   padding: 0;
   color: #000000;
@@ -213,7 +217,6 @@ body {
 }
 
 .advantages-item {
-  /* width: 400px; */
   min-height: 384px;
   display: flex;
   flex-direction: column;
@@ -325,15 +328,10 @@ body {
 }
 
 .button-search-form-link {
-  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  text-transform: uppercase;
-  color: #ffffff;
   background: #756157;
-  text-decoration: none;
   padding: 12px 15px;
-  border-radius: 4px;
 }
 
 .subscription {
@@ -390,15 +388,10 @@ body {
 }
 
 .subscription-button {
-  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  text-transform: uppercase;
-  color: #ffffff;
   background: #82B3D3;
-  font-family: inherit;
   margin: 0;
-  border: none;
   padding: 12px 15px;
   border-radius: 0px 10px 10px 0px;
 }
@@ -573,16 +566,7 @@ body {
 }
 
 .catalog-filter-button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  text-transform: uppercase;
   background: #82B3D3;
-  border-radius: 4px;
-  color: inherit;
-  text-decoration: none;
   width: 160px;
   height: 48px;
   margin-bottom: 20px;
@@ -590,12 +574,8 @@ body {
 
 .button-no-background {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  font-family: inherit;
-  color: inherit;
   background: none;
-  text-decoration: none;
+  text-transform: none;
 }
 
 .sorting-block {
@@ -618,8 +598,7 @@ body {
   font-family: inherit;
   font-size: 18px;
   line-height: 21px;
-  width: 287px;
-  height: 48px;
+  width: 290px;
   display: flex;
   align-self: center;
   margin-left: auto;
@@ -696,16 +675,8 @@ body {
   font-weight: 400;
 }
 
-.navigation-product-link,
-.navigation-product-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  border: none;
+.navigation-product-link,{
+
 }
 
 
@@ -718,9 +689,7 @@ body {
 }
 
 .navigation-product-button {
-  font-family: inherit;
   background: #82B3D3;
-  border-radius: 4px;
 }
 
 .navigation-product-button-liked {
