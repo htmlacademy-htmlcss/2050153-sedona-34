@@ -676,8 +676,11 @@ body {
 }
 
 .product-view-user-item {
+  display: inline-block;
+  box-sizing: border-box;
   width: 48px;
   height: 48px;
+  padding: 14px 12px;
 }
 
 .product-view-user-item:not(:last-child) {
@@ -687,16 +690,22 @@ body {
 .product-view-user-link-table {
   background-image: url(../images/catalog-icon-page-view/icon-table.svg);
   background-repeat: no-repeat;
+  background-size: 16px 14px;
+  background-position: center;
 }
 
 .product-view-user-link-slideshow {
   background-image: url(../images/catalog-icon-page-view/icon-slideshow.svg);
   background-repeat: no-repeat;
+  background-size: 16px 14px;
+  background-position: center;
 }
 
 .product-view-user-link-list {
   background-image: url(../images/catalog-icon-page-view/icon-list.svg);
   background-repeat: no-repeat;
+  background-size: 16px 14px;
+  background-position: center;
 }
 
 .product-catalog {
