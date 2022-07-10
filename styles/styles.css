@@ -519,6 +519,15 @@ body {
   background-image: url(../images/footer-icons/youtube.svg);
 }
 
+/* .footer-social-button:hover,
+.footer-social-button:focus {
+  color: #68A2CA;
+}
+
+.footer-social-button:active {
+  color: rgba(104, 162, 202, 0.3);
+} */
+
 .footer-contact {
   display: flex;
   text-align: center;
@@ -537,10 +546,28 @@ body {
   font-family: inherit;
 }
 
+.footer-contact-phone:hover,
+.footer-contact-phone:focus {
+  color: #756157;
+}
+
+.footer-contact-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .footer-link {
   display: flex;
   align-self: center;
 }
+
+/* .footer-link:hover,
+.footer-link-logo:focus {
+  color: #756157;
+}
+
+.footer-link-logo:active {
+  color: rgba(117, 97, 87, 0.3);
+} */
 
 .catalog-filter-block {
   display: flex;
