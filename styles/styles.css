@@ -70,6 +70,20 @@ body {
   align-items: center;
 }
 
+.button:hover,
+.button:focus {
+  background: #615048;
+}
+
+.button:disabled {
+  background: #E5E5E5;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background: #756157;
+}
+
 .main-header,
 .catalog-header {
   display: flex;
@@ -189,20 +203,6 @@ body {
   width: 160px;
 }
 
-.navigation-user-button:hover,
-.navigation-user-button:focus {
-  background: #615048;
-}
-
-.navigation-user-button:disabled {
-  background: #E5E5E5;
-}
-
-.navigation-user-button:active {
-  color: rgba(255, 255, 255, 0.3);
-  background: #756157;
-}
-
 .main-container {
   flex-grow: 1;
 }
@@ -222,7 +222,20 @@ body {
   display: flex;
   justify-content: center;
   min-height: 485px;
+  position: relative;
 }
+
+/* .hero-background::after {
+  position: absolute;
+  width: 1200px;
+  top: 428px;
+  background-image: url(../images/hero-divider.svg);
+  z-index: 200;
+  display: block;
+  position: absolute;
+  width: 20px;
+  content: "";
+} */
 
 .hero-vector {
   align-self: center;
@@ -453,6 +466,16 @@ body {
   margin: 0;
   padding: 12px 15px;
   border-radius: 0px 10px 10px 0px;
+}
+
+.subscription-button:hover,
+.subscription-button:focus {
+  background: #68A2CA;
+}
+
+.subscription-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background: #82B3D3;
 }
 
 .footer {
