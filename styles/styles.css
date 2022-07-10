@@ -123,20 +123,19 @@ body {
   flex-wrap: wrap;
 }
 
-.navigation-user-link-search {
-  background-image: url(../images/header-user-menu-icon/search.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.navigation-user-link {
   display: block;
   min-width: 42px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navigation-user-link-search {
+  background-image: url(../images/header-user-menu-icon/search.svg);
 }
 
 .navigation-user-link-favorite {
   background-image: url(../images/header-user-menu-icon/favorite.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-  min-width: 42px;
 }
 
 .navigation-favourite-product {
