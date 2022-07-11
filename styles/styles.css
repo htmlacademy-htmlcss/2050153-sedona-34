@@ -88,6 +88,7 @@ body {
 .catalog-header {
   display: flex;
   background: #ffffff;
+  margin: -5px;
 }
 
 .logo {
@@ -121,6 +122,7 @@ body {
   bottom: 0;
   left: 17px;
   border-bottom: 2px solid #756257;
+  z-index: 100;
   content: "";
 }
 
@@ -152,6 +154,7 @@ body {
   min-width: 42px;
   background-position: center;
   background-repeat: no-repeat;
+  text-decoration: none;
 }
 
 .navigation-user-link-search {
@@ -169,7 +172,6 @@ body {
   height: 20px;
   left: 30px;
   top: 12px;
-  text-decoration: none;
   font-family: inherit;
   font-weight: 400;
   font-size: 10px;
@@ -629,6 +631,18 @@ body {
   text-decoration: none;
 }
 
+.breadcrumbs-link-icon:hover,
+.breadcrumbs-link-text:hover {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+}
+
+.breadcrumbs-link-icon:active,
+.breadcrumbs-link-text:active {
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
+}
+
 .breadcrumbs-link-text::before {
   content: url(../images/arrow-right.svg);
   padding: 0 10px;
@@ -652,6 +666,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: auto;
+}
+
+.control-input,
+.catalog-filter-range {
+  cursor: pointer;
 }
 
 .catalog-filter-title {
@@ -697,10 +716,34 @@ body {
   margin-bottom: 20px;
 }
 
+.catalog-filter-button:hover,
+.catalog-filter-button:focus {
+  background: #68A2CA;
+}
+
+.catalog-filter-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background: #82B3D3;
+}
+
 .button-no-background {
   font-weight: 400;
   background: none;
   text-transform: none;
+}
+
+.button-no-background:hover {
+  background-color: inherit;
+  opacity: 0.6;
+}
+
+.button-no-background:active {
+  background-color: inherit;
+  opacity: 0.3;
+}
+
+.button-no-background:focus {
+  background-color: inherit;
 }
 
 .sorting-block {
@@ -732,6 +775,21 @@ body {
   align-self: center;
   margin-left: auto;
   padding: 14px 20px;
+  cursor: pointer;
+}
+
+.select-control:hover,
+.select-control:focus {
+  border: 2px solid #68A2CA;
+}
+
+.select-control:active {
+  border: 2px solid #3F5E72;
+}
+.select-control:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
 }
 
 .product-view-user-list {
@@ -759,10 +817,20 @@ body {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   background-color: inherit;
+  cursor: pointer;
 }
 
 .product-view-button-current {
   border: 2px solid #000000;
+}
+
+.product-view-button:hover,
+.product-view-button:active {
+  border: 2px solid #000000;
+}
+
+.product-view-button:focus {
+  border: 2px solid #68A2CA;
 }
 
 .product-view-user-link-table {
