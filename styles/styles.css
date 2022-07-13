@@ -72,7 +72,8 @@ body {
 
 .button:hover,
 .button:focus {
-  background: #615048;
+  /* background: #615048; */
+  background: #68A2CA;
 }
 
 .button:disabled {
@@ -80,8 +81,10 @@ body {
 }
 
 .button:active {
+  /* color: rgba(255, 255, 255, 0.3);
+  background: #756157; */
   color: rgba(255, 255, 255, 0.3);
-  background: #756157;
+  background: #82B3D3;
 }
 
 .main-header,
@@ -212,6 +215,16 @@ body {
 .navigation-user-button {
   background-color: #756157;
   width: 160px;
+}
+
+.navigation-user-button:hover,
+.navigation-user-button:focus {
+  background: #615048;
+}
+
+.navigation-user-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background: #756157;
 }
 
 .main-container {
@@ -488,16 +501,6 @@ body {
   border-radius: 0px 10px 10px 0px;
 }
 
-.subscription-button:hover,
-.subscription-button:focus {
-  background: #68A2CA;
-}
-
-.subscription-button:active {
-  color: rgba(255, 255, 255, 0.3);
-  background: #82B3D3;
-}
-
 .footer {
   min-height: 120px;
   display: flex;
@@ -727,16 +730,6 @@ body {
   margin-bottom: 20px;
 }
 
-.catalog-filter-button:hover,
-.catalog-filter-button:focus {
-  background: #68A2CA;
-}
-
-.catalog-filter-button:active {
-  color: rgba(255, 255, 255, 0.3);
-  background: #82B3D3;
-}
-
 .button-no-background {
   font-weight: 400;
   background: none;
@@ -892,7 +885,6 @@ body {
   font-weight: 400;
 }
 
-
 .navigation-product-link {
   background: #756157;
   border-radius: 4px;
@@ -901,19 +893,18 @@ body {
   height: 37px;
 }
 
-.navigation-product-button {
-  background: #82B3D3;
+.navigation-product-link:hover,
+.navigation-product-link:focus {
+  background: #615048;
 }
 
-.navigation-product-button:hover,
-.navigation-product-button:focus {
-  background: #68A2CA;
-}
-
-.navigation-product-button:active {
+.navigation-product-link:active {
   color: rgba(255, 255, 255, 0.3);
+  background: #756157;
+}
+
+.navigation-product-button{
   background: #82B3D3;
-  opacity: 0.3;
 }
 
 .navigation-product-button-liked {
@@ -1015,7 +1006,6 @@ body {
 .pagination-item:active {
   color: rgba(255, 255, 255, 0.3);
   background: #82B3D3;
-  opacity: 0.3;
 }
 
 .pagination-current {
