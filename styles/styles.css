@@ -678,6 +678,7 @@ body {
 .catalog-filter-group {
   margin: 0;
   padding: 0;
+  border: none;
 }
 
 .catalog-filter-group:not(:last-child) {
@@ -717,12 +718,93 @@ body {
   padding-bottom: 16px;
 }
 
-.catalog-filter-price-range-field {
-  background: none;
+.catalog-filter-price-range {
+  display: flex;
+  align-items: center;
+  background: transparent;
   border: 2px solid #FFFFFF;
   border-radius: 4px;
   height: 48px;
-  margin-bottom: 20px;
+  width: 288px;
+  margin-bottom: 27px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.catalog-filter-price-range-field {
+  width: 85px;
+  padding-left: 19px;
+  font: inherit;
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  appearance: textfield;
+}
+
+.catalog-filter-price-range-label {
+  margin-right: 14px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 0.3;
+}
+
+.catalog-filter-price-range-label:not(:last-child) {
+  margin-right: 18px;
+  margin-left: 2px;
+}
+
+.catalog-filter-price-range-label:not(:last-child)::after {
+  position: absolute;
+  top: 21px;
+  left: 118.5px;
+  width: 48px;
+  height: 2px;
+  background-color: #FFFFFF;
+  transform: rotate(90deg);
+  content: "";
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #FFFFFF;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.range-toggle:focus {
+  border: 3px solid #83B3D3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.range-toggle:active {
+  border: 2px solid #83B3D3;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.4);
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
 }
 
 .catalog-filter-buttons {
