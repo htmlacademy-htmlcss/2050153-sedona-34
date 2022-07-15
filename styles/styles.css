@@ -714,6 +714,7 @@ body {
   position: relative;
   display: block;
   padding-left: 39px;
+  cursor: pointer;
 }
 
 .control:not(:last-child) {
@@ -766,6 +767,23 @@ body {
   background-color: #3F5E72;
   border-radius: 50%;
   content: "";
+}
+
+.control-mark-checkbox:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.control-mark-checkbox:focus {
+  background: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83B3D3;
+}
+
+.control-mark-checkbox:active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.control-mark-radio:focus {
+  border: 3px solid #83B3D3;
 }
 
 .catalog-filter-price-range {
