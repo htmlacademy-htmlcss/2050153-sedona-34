@@ -197,14 +197,14 @@
         <form class="search-modal-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="field-group field-group-date-in">
             <label class="search-label" for="date-in">Дата заезда:</label>
-            <input class="search-modal-field-data-in field-modal" type="date" id="date-in" name="date-in" placeholder="27 апреля 2022">
+            <input class="search-modal-field-data-in field-modal" type="text" id="date-in" name="date-in" placeholder="27 апреля 2022">
           </p>
           <p class="model-message message-error">
             Мы не можем отправить вас в прошлое.
           </p>
           <p class="field-group field-group-date-out">
             <label class="search-label" for="date-out">Дата выезда:</label>
-            <input class="search-modal-field-date-out field-modal" type="date" id="date-out" name="date-out" placeholder="1 сентября 2022">
+            <input class="search-modal-field-date-out field-modal" type="text" id="date-out" name="date-out" placeholder="1 сентября 2022">
           </p>
           <p class="model-message message">
             На эти даты есть свободные номера. Пока есть.
@@ -219,6 +219,7 @@
               <button class="info">
                 <span class="visually-hidden">Посмотреть дополнительную информацию</span>
               </button>
+              <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
             </label>
             <input class="search-modal-field-children field-modal" type="number" id="children" name="children" placeholder="1">
           </p>
