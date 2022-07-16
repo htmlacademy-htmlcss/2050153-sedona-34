@@ -679,7 +679,7 @@ body {
   grid-template-columns: 155px 1fr;
   margin: 0;
   align-items: center
-  /* appearance: none; */
+    /* appearance: none; */
 }
 
 .field-group-date-in {
@@ -759,7 +759,14 @@ body {
   margin-left: 56px;
 }
 
-.info {
+.tooltip {
+  position: absolute;
+  margin-left: 4px;
+  width: 25px;
+  height: 25px;
+}
+
+.tooltip-toggle {
   position: relative;
   padding: 0;
   top: -5px;
@@ -772,12 +779,50 @@ body {
   cursor: pointer;
 }
 
-.info::before {
+.tooltip-toggle::before {
   position: absolute;
   top: 5px;
   left: 12px;
   width: 1px;
   content: url(../images/modal-icons/info-icon-i.svg);
+}
+
+.tooltip-toggle:hover {
+  background: #68A2CA;
+}
+
+.tooltip-text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: none;
+  padding: 15px 18px 18px 22px;
+  display: block;
+  width: 216px;
+  background: #333333;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  position: absolute;
+  top: 100%;
+  margin-top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.tooltip-text::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #333333;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 .catalog-filter-block {
@@ -923,8 +968,8 @@ body {
   background-color: #FFFFFF;
 }
 
-.control-input[type="checkbox"]:checked + .control-mark::before,
-.control-input[type="checkbox"]:checked + .control-mark::after {
+.control-input[type="checkbox"]:checked+.control-mark::before,
+.control-input[type="checkbox"]:checked+.control-mark::after {
   position: absolute;
   left: 0;
   background: #3F5E72;
@@ -933,23 +978,23 @@ body {
   transform-origin: left bottom;
 }
 
-.control-input[type="checkbox"]:checked + .control-mark::before {
+.control-input[type="checkbox"]:checked+.control-mark::before {
   top: 50%;
   height: 37%;
   width: 3px;
 }
 
-.control-input[type="checkbox"]:checked + .control-mark::after {
+.control-input[type="checkbox"]:checked+.control-mark::after {
   bottom: 3px;
   height: 3px;
   width: 55%;
 }
 
-.control-input[type="radio"] + .control-mark {
+.control-input[type="radio"]+.control-mark {
   border-radius: 50%;
 }
 
-.control-input[type="radio"]:checked + .control-mark::before {
+.control-input[type="radio"]:checked+.control-mark::before {
   position: absolute;
   top: 5px;
   left: 5px;
