@@ -1026,38 +1026,50 @@ body {
 }
 
 .control-input[type="checkbox"]:hover+.control-mark {
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .control-input[type="checkbox"]:focus+.control-mark {
-  background: rgba(255, 255, 255, 0.6);
-  border: 3px solid #83B3D3;
+  background-color: rgba(255, 255, 255, 0.6);
+  outline: 3px solid #83B3D3;
 }
 
 .control-input[type="checkbox"]:active+.control-mark {
-  background: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .control-input[type="radio"]:focus+.control-mark {
-  border: 3px solid #83B3D3;
+  outline: 3px solid #83B3D3;
 }
 
 .control-input[type="checkbox"]:disabled+.control-mark,
 .control-input[type="radio"]:disabled+.control-mark {
-  background: #E5E5E5;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .catalog-filter-price-range {
   display: flex;
+}
+
+.catalog-filter-price-range-field-from,
+.catalog-filter-price-range-field-to {
+  display: flex;
   align-items: center;
-  background: transparent;
   border: 2px solid #FFFFFF;
-  border-radius: 4px;
   height: 48px;
-  width: 288px;
+  width: 144px;
   margin-bottom: 27px;
   position: relative;
   box-sizing: border-box;
+}
+
+.catalog-filter-price-range-field-from {
+  border-radius: 4px 0 0 4px;
+}
+
+.catalog-filter-price-range-field-to {
+  border-radius: 0 4px 4px 0;
+  margin-left: -2px;
 }
 
 .catalog-filter-price-range-field {
@@ -1075,7 +1087,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .catalog-filter-price-range-label:not(:last-child) {
@@ -1083,15 +1095,19 @@ body {
   margin-left: 2px;
 }
 
-.catalog-filter-price-range-label:not(:last-child)::after {
-  position: absolute;
-  top: 21px;
-  left: 118.5px;
-  width: 48px;
-  height: 2px;
-  background-color: #FFFFFF;
-  transform: rotate(90deg);
-  content: "";
+.catalog-filter-price-range-field-from:hover,
+.catalog-filter-price-range-field-to:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+/* .catalog-filter-price-range-field:focus~.catalog-filter-price-range-field-from,
+.catalog-filter-price-range-field-to:focus {
+  box-shadow: 0px 0px 0px 3px #81B3D2;
+} */
+
+.catalog-filter-price-range-field-from:active,
+.catalog-filter-price-range-field-to:active {
+  background-color: #756257;
 }
 
 .range-scale {
@@ -1117,12 +1133,12 @@ body {
 }
 
 .range-toggle:focus {
-  border: 3px solid #83B3D3;
+  outline: 3px solid #83B3D3;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-toggle:active {
-  border: 2px solid #83B3D3;
+  outline: 2px solid #83B3D3;
   box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.4);
 }
 
