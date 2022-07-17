@@ -730,7 +730,7 @@ body {
 .field-group-children {
   grid-column: 3/5;
   grid-row: 5/6;
-  grid-template-columns: 153px 133px;
+  /* grid-template-columns: 153px 133px; */
 }
 
 .search-label {
@@ -764,13 +764,35 @@ body {
 
 .search-modal-field-adults,
 .search-modal-field-children {
-  width: 133px;
+  width: 45px;
   text-align: center;
-  padding-left: 34px;
+  border-radius: 0;
   box-sizing: border-box;
 }
 
-.search-modal-field-adults::before,
+.button-minus,
+.button-plus {
+  background-color: #F2F2F2;
+  width: 44px;
+  height: 50px;
+  border: none;
+}
+
+.button-minus {
+  background-image: url(../images/modal-icons/minus-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px 0 0 4px;
+}
+
+.button-plus {
+  background-image: url(../images/modal-icons/plus-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0 4px 4px 0;
+}
+
+/* .search-modal-field-adults::before,
 .search-modal-field-children::before {
   content: url(../images/modal-icons/minus-icon.svg);
   position: absolute;
@@ -790,6 +812,11 @@ body {
   width: 13px;
   height: 13px;
   display: block;
+} */
+
+.search-label-children,
+.search-label-adult {
+  margin-right: auto;
 }
 
 .search-label-children {

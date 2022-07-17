@@ -215,9 +215,11 @@
             На эти даты есть свободные номера. Пока есть.
           </p>
           <p class="field-group field-group-adults">
-            <label class="search-label" for="adults">Взрослые:</label>
+            <label class="search-label search-label-adult" for="adults">Взрослые:</label>
+            <button class="button-minus"></button>
             <input class="search-modal-field-adults field-modal" type="number" id="adults" name="adults"
               placeholder="2">
+            <button class="button-plus"></button>
           </p>
           <p class="field-group field-group-children">
             <label class="search-label search-label-children" for="children">
@@ -230,8 +232,10 @@
                   лет. Дети до 6 лет размещаются бесплатно.</span>
               </span>
             </label>
+            <button class="button-minus"></button>
             <input class="search-modal-field-children field-modal" type="number" id="children" name="children"
               placeholder="1">
+            <button class="button-plus"></button>
           </p>
           <button class="button search-modal-form-button" type="submit">Найти</button>
         </form>
