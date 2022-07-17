@@ -1025,21 +1025,26 @@ body {
   content: "";
 }
 
-.control-mark-checkbox:hover {
+.control-input[type="checkbox"]:hover+.control-mark {
   background: rgba(255, 255, 255, 0.6);
 }
 
-.control-mark-checkbox:focus {
+.control-input[type="checkbox"]:focus+.control-mark {
   background: rgba(255, 255, 255, 0.6);
   border: 3px solid #83B3D3;
 }
 
-.control-mark-checkbox:active {
+.control-input[type="checkbox"]:active+.control-mark {
   background: rgba(255, 255, 255, 0.3);
 }
 
-.control-mark-radio:focus {
+.control-input[type="radio"]:focus+.control-mark {
   border: 3px solid #83B3D3;
+}
+
+.control-input[type="checkbox"]:disabled+.control-mark,
+.control-input[type="radio"]:disabled+.control-mark {
+  background: #E5E5E5;
 }
 
 .catalog-filter-price-range {
