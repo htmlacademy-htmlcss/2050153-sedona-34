@@ -78,42 +78,59 @@
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <label class="control">
-              <input class="control-input" type="checkbox" name="control-pool" checked>
-              Бассейн
+              <input class="visually-hidden control-input" type="checkbox" name="control-pool" checked>
+              <span class="control-mark control-mark-checkbox"></span>
+              <span class="control-label">Бассейн</span>
             </label>
             <label class="control">
-              <input class="control-input" type="checkbox" name="control-carpark" checked>
-              Парковка
+              <input class="visually-hidden control-input" type="checkbox" name="control-carpark" checked>
+              <span class="control-mark control-mark-checkbox"></span>
+              <span class="control-label">Парковка</span>
             </label>
             <label class="control">
-              <input class="control-input" type="checkbox" name="control-wi-fi">
-              Wi-Fi
+              <input class="visually-hidden control-input" type="checkbox" name="control-wi-fi">
+              <span class="control-mark control-mark-checkbox"></span>
+              <span class="control-label">Wi-Fi</span>
             </label>
           </fieldset>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
             <label class="control">
-              <input class="control-input" type="radio" name="product-group" value="hotel" checked>
-              Гостиница
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="hotel" checked>
+                <span class="control-mark control-mark-radio"></span>
+                <span class="control-label">Гостиница</span>
             </label>
             <label class="control">
-              <input class="control-input" type="radio" name="product-group" value="motel">
-              Мотель
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="motel">
+              <span class="control-mark control-mark-radio"></span>
+              <span class="control-label">Мотель</span>
             </label>
             <label class="control">
-              <input class="control-input" type="radio" name="product-group" value="apartment">
-              Апартаменты
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="apartment">
+              <span class="control-mark control-mark-radio"></span>
+              <span class="control-label">Апартаменты</span>
             </label>
           </fieldset>
           <fieldset class="catalog-filter-group catalog-filter-price-group">
             <legend class="catalog-filter-title catalog-filter-title-price">Стоимость, ₽:</legend>
             <div class="catalog-filter-price-range">
-              <input class="catalog-filter-price-range-field" type="number" name="product-price" id="from">
-              <label class="catalog-filter-price-range-field" for="from">от</label>
-              <input class="catalog-filter-price-range-field" type="number" name="product-price" id="to">
-              <label class="catalog-filter-price-range-field" for="to">до</label>
+              <div class="catalog-filter-price-range-field-from">
+                <input class="catalog-filter-price-range-field" type="number" name="product-price" placeholder="0" id="from"><label class="catalog-filter-price-range-label" for="from">от</label>
+              </div>
+              <div class="catalog-filter-price-range-field-to">
+                <input class="catalog-filter-price-range-field" type="number" name="product-price" placeholder="9000" id="to"><label class="catalog-filter-price-range-label" for="to">до</label>
+              </div>
             </div>
-            <input class="catalog-filter-range" type="range">
+            <div class="range-scale">
+              <div class="range-bar" style="left: 10px; width: 217px">
+                <button class="range-toggle toggle-min">
+                  <span class="visually-hidden">Изменить минимальную цену.</span>
+                </button>
+                <button class="range-toggle toggle-max">
+                  <span class="visually-hidden">Изменить максимальную цену.</span>
+                </button>
+              </div>
+            </div>
           </fieldset>
           <div class="catalog-filter-buttons">
             <button class="button catalog-filter-button" type="submit">Применить</button>
